@@ -3,7 +3,7 @@ import radon.raw as cc_raw
 import radon.visitors as cc_visitors
 
 
-def test_scenario(params):
+def TEST_scenario(params):
     client = dataikuapi.DSSClient(params["host"], params["api"])
     project = client.get_project(params["project"])
 
